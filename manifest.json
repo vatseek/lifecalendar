@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Life calendar",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "options_page": "options.html",
+  "browser_action": {
+    "default_title": "LifeCalendar"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
